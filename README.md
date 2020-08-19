@@ -1,72 +1,42 @@
-# [Start Bootstrap - Freelancer](https://startbootstrap.com/themes/freelancer/)
+<h1>Darius's Portfolio</h1>
 
-[Freelancer](https://startbootstrap.com/themes/freelancer/) is a one page, freelancer portfolio theme built with [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, modal windows for each portfolio item, and a working PHP based contact form.
+<h2>About Me</h2>
+<p>I am an aspiring developer with a background in Information Technology and Healthcare. By working within those industries, I have learned how to work alongside a diverse group of individuals to best meet their needs. Originally from Raleigh, NC I have made my way to Boston in pursuit of professional goals and growth. With my love of learning and technology I have decided to utilize my analytical skills to work on and create intriguing projects.</p>
 
-## Preview
+<h2>Skills</h2>
+<ul>
+<li>Atom</li>
+<li>JavaScript</li>
+<li>Bootstrap</li>
+<li>CSS</li>
+<li>HTML</li>
+<li>Git</li>
+<li>GitHub</li>
+<li>Handlebars</li>
+<li>Heroku</li>
+<li>JQuery</li>
+<li>MongoDB</li>
+<li>Node.js</li>
+<li>React</li>
+<li>Sass</li>
+</ul>
 
-[![Freelancer Preview](https://startbootstrap.com/assets/img/screenshots/themes/freelancer.png)](https://startbootstrap.github.io/startbootstrap-freelancer/)
+<h2>Contact Info</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/itsalldari/">LinkedIn</a></li>
+<li><a href="https://github.com/ItsAllDari">GitHub</a></li>
+<li>Location: Boston, MA</li>
+<li>Email: ItsAllDari@Gmail.com</li>
 
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-freelancer/)**
+<h2><a href"https://drive.google.com/file/d/1jwXwVXeyxrGVS3CisT-S0kLlL4Bp7-vI/view?usp=sharing">Resume</a></h2>
 
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-freelancer/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
-[![Build Status](https://travis-ci.org/StartBootstrap/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/StartBootstrap/startbootstrap-freelancer)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-freelancer/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-freelancer)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-freelancer?type=dev)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/themes/freelancer/)
-- Install using npm: `npm i startbootstrap-freelancer`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-freelancer.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-freelancer)
-
-## Usage
-
-### Basic Usage
-
-After downloading, simply edit the HTML and CSS files included with `dist` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
-
-### Advanced Usage
-
-Clone the source files of the theme and navigate into the theme's root directory. Run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `package.json` file to see which scripts are included.
-
-#### npm Scripts
-
-- `npm run build` builds the project - this builds assets, HTML, JS, and CSS into `dist`
-- `npm run build:assets` copies the files in the `src/assets/` directory into `dist`
-- `npm run build:pug` compiles the Pug located in the `src/pug/` directory into `dist`
-- `npm run build:scripts` brings the `src/js/scripts.js` file into `dist`
-- `npm run build:scss` compiles the SCSS files located in the `src/scss/` directory into `dist`
-- `npm run clean` deletes the `dist` directory to prepare for rebuilding the project
-- `npm run start:debug` runs the project in debug mode
-- `npm start` or `npm run start` runs the project, launches a live preview in your default browser, and watches for changes made to files in `src`
-
-You must have npm installed in order to use this build environment.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/StartBootstrap/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [theme overview page at Start Bootstrap](https://startbootstrap.com/themes/freelancer/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap themes and templates. All of the free themes and templates on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-- <https://startbootstrap.com>
-- <https://twitter.com/SBootstrap>
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**.
-
-- <http://davidmiller.io>
-- <https://twitter.com/davidmillerskt>
-- <https://github.com/davidtmiller>
-
-Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+<h2>Projects</h2>
+<ul>
+<li>Music Application</li>
+<a href"https://github.com/ItsAllDari/music-library-client">Front End</a>
+<a href"https://github.com/ItsAllDari/music-library">Back End</a>
+<p>A full stack application that allowed you to add and keep track of your favorite songs. The application was built using JavaScript, Handlebars, HTML, CSS, Node.js, and Bootstrap.</p>
+<li>Tic Tac Toe Game</li>
+<a href"https://github.com/ItsAllDari/tic-tac-toe">Tic Tac Toe App</a>
+<p>The classic game built using JavaScript, HTML, and CSS. Made use of user authentication to have a user log in and keep track of the number of games they played.</p>
+</ul>
