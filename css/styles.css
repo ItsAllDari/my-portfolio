@@ -10281,3 +10281,7 @@ form .row:first-child .floating-label-form-group {
 .aos-init {
     padding: 30px;
 }
+
+.text-muted {
+    text-align: center;
+}
