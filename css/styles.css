@@ -1323,8 +1323,8 @@ pre code {
   }
 
   .col-lg-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 
   .col-lg-5 {
@@ -9809,6 +9809,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-shadow {
+  text-shadow: 3px 3px #FF4500;
+}
+
 .text-primary {
   color: 	#FF0000 !important;
 }
@@ -10017,6 +10021,7 @@ h3 {
 .page-section .page-section-heading {
   font-size: 2.25rem;
   line-height: 2rem;
+
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -10088,7 +10093,7 @@ h3 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Orbitron", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -10157,6 +10162,8 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
+  box-shadow: 10px 5px 5px #FFFFFF;
 }
 
 @media (min-width: 992px) {
@@ -10167,9 +10174,11 @@ h3 {
   .masthead .masthead-heading {
     font-size: 4rem;
     line-height: 3.5rem;
+    text-shadow: 3px 3px #FF4500;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+    text-shadow: 2px 2px #FF4500;
   }
 }
 .portfolio .portfolio-item {
@@ -10186,13 +10195,13 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #FF4250;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .portfolio-modal .portfolio-modal-title {
@@ -10280,8 +10289,38 @@ form .row:first-child .floating-label-form-group {
 
 .aos-init {
     padding: 30px;
+    margin: auto;
+}
+
+.aos-init:hover {
+    animation: bounce 1s;
+}
+
+.mb-2:hover {
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
 .text-muted {
+    text-align: center;
+}
+
+.portfolio-caption {
     text-align: center;
 }
